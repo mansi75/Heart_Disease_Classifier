@@ -4,7 +4,7 @@ Heart disease is a class of diseases that involve the heart or blood vessels. Ca
 
 ## About the Dataset
 
-This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them.The "target" field refers to the presence of heart disease in the patient. It is integer valued 0 which means presence of no hear disease and 1 means presence of disease. Experiments with the Cleveland database have concentrated on simply attempting to distinguish presence i.e value 1 from absence (value 0).
+This database contains 76 attributes, but all published experiments refer to using a subset of 13 of them.The "target" field refers to the presence of heart disease in the patient. It is integer valued 0 which means presence of no hear disease and 1 means presence of disease. Experiments with the Cleveland database have concentrated on simply attempting to distinguish presence i.e value 1 from absence (value 0).
 
 The data includes 303 patient level features including if they have heart disease at the end or not. Features are like;
 Age: Obvious one.
@@ -16,26 +16,26 @@ Age: Obvious one.
   * 1: Atypical Angina
   * 2: Non-Anginal Pain
   * 3: Asymptomatic
--Resting Blood Pressure: Person's resting blood pressure.
--Cholesterol: Serum Cholesterol in mg/dl
--Fasting Blood Sugar:
-    0:Less Than 120mg/ml
-    1: Greater Than 120mg/ml
--Resting Electrocardiographic Measurement:
-    0: Normal
-    1: ST-T Wave Abnormality
-    2: Left Ventricular Hypertrophy
--Max Heart Rate Achieved: Maximum Heart Rate Achieved
--Exercise Induced Angina:
-    1: Yes
-    0: No
--ST Depression: ST depression induced by exercise relative to rest.
--Slope: Slope of the peak exercise ST segment:
-    0: Upsloping
-    1: Flat
-    2: Downsloping
--Thalassemia: A blood disorder called 'Thalassemia':
-    0: Normal
-    1: Fixed Defect
-    2: Reversable Defect
--Number of Major Vessels: Number of major vessels colored by fluoroscopy.
+3. Resting Blood Pressure: Person's resting blood pressure.
+4. Cholesterol: Serum Cholesterol in mg/dl
+5. Fasting Blood Sugar:
+  * 0:Less Than 120mg/ml
+  * 1: Greater Than 120mg/ml
+6. Resting Electrocardiographic Measurement:
+  * 0: Normal
+  * 1: ST-T Wave Abnormality
+  * 2: Left Ventricular Hypertrophy
+7. Max Heart Rate Achieved: Maximum Heart Rate Achieved
+8. Exercise Induced Angina:
+  * 1: Yes
+  * 0: No
+9. ST Depression: ST depression induced by exercise relative to rest.
+10. Slope: Slope of the peak exercise ST segment:
+  * 0: Upsloping
+  * 1: Flat
+  * 2: Downsloping
+11. Thalassemia: A blood disorder called 'Thalassemia':
+  * 0: Normal
+  * 1: Fixed Defect
+  * 2: Reversable Defect
+12. Number of Major Vessels: Number of major vessels colored by fluoroscopy.

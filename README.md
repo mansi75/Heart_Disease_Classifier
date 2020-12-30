@@ -39,3 +39,19 @@ Age: Obvious one.
   * 1: Fixed Defect
   * 2: Reversable Defect
 12. Number of Major Vessels: Number of major vessels colored by fluoroscopy.
+
+## Working on the Notebook
+
+### Feature Engineering
+Feature Engineering is used to Prepare the input dataset which is compatible with the machine learning algorithm requirements and also help to Improve the performance of machine learning models. In this notebook I have used Imputation, One-Hot-Encoding, Scaling as a part of feature Engineering.
+
+### Exploratory Data Analysis
+EDA is a way of visualizing, summarizing and interpreting the information that is hidden in rows and column format. In this notebook I have used EDA for visualizing and interpreting the different features and their relation with each other. 
+
+### Data Visualization
+Data visualization is the practice of translating information into a visual context, such as a map or graph, to make data easier to understand and pull insights from. The main goal of data visualization is to make it easier to identify patterns, trends and outliers in large data sets. In this notebook I have used Matplotlib, Seaborn and Plotly for various visualization patterns. 
+
+### Predictive Algorithms
+Predictive analytics is the use of data, statistical algorithms and machine learning techniques to identify the likelihood of future outcomes based on historical data. In this notebook I have used Decision trees and Random Forest to predict future outcome. 
+
+
